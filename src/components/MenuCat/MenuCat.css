@@ -1,0 +1,118 @@
+.MenuCat{
+    width:100%;
+    height: 696px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.MenuCat-1{
+    width: 45%;
+    /* border: 2px solid red; */
+    height: 696px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-end;
+}
+.MenuCat-2{
+    width: 50%;
+    border: 2px solid blue;
+    margin-left: 40em;
+}
+.assessment{
+    height: 56px;
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    border: 1px dashed #793EF5;
+    border-radius: 12px;
+}
+.add{
+    width:106px;
+    height: 24px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12em;
+}
+.add p{
+    color:#793EF5;
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    line-height: 24;
+    text-align: center;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 20px;
+    gap: 24px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.cat-heading{
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    font-size: 24px;
+}
+.cat-body{
+    height: 110px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    position: relative;
+}
+.cat-body input{
+    width: 625px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    background-color: #F1F4F8;
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+    margin-top: -2em;
+}.cat-body img{
+    position: absolute;
+    right: 10px;
+    bottom: 98px;
+    align-items: center;
+}
+.cat-tags{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    height: 46px;
+}
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 12px 3px 16px;
+    gap: 6px;
+    background-color: rgba(102, 95, 239, 0.2);
+    border: 1px solid #793EF5;
+    border-radius: 32px;
+}
+.tag p{
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    font-size: 15px;
+    color: #793EF5;
+}
+.tag img{
+    position: relative;
+    bottom: 0;
+    right: 2px;
+    
+}
